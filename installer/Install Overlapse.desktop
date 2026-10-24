@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Install Overlapse
+Comment=Installs or updates Overlapse and adds it to Steam
+Icon=applications-games
+Terminal=true
+Exec=bash -c 'curl -fsSL https://raw.githubusercontent.com/mremad/overlapse-builds/main/installer/install.sh | bash; echo; read -p "Press Enter to close..."'
